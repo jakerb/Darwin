@@ -1,0 +1,43 @@
+{
+	"title": "About Darwin",
+	"slug": "About",
+	"version": 1,
+	"Description": "The about window",
+	"width": 500,
+	"height": 290,
+
+	"views": [ 
+		{"title": "index", "view": "index"},
+		{"title": "about", "view": "about"}
+	],
+
+	"taskbar": [
+		{"title": "About Darwin", "slug": "legend", "items": 
+			[ 
+				{ "title": "About Darwin", "url": "about", "divide": true },
+				{ "title": "Check for Updates..", "url": "updates", "divide": true },
+				{ "title": "Preferences..", "url": "preferences" },
+				{ "title": "Services..", "url": "services", "divide": true },
+				{ "title": "Hide About Darwin", "url": "hide" },
+				{ "title": "Quit About Darwin", "url": "quit" }
+			]
+		},
+
+		{"title": "File", "slug": "file", "items": 
+			[ 
+				{ "title": "New File", "url": "new" },
+				{ "title": "Open File", "url": "open" },
+				{ "title": "Save As..", "url": "save" }
+			]
+		},
+
+		{"title": "Edit", "slug": "edit", "items": 
+			[ 
+				{ "title": "New File", "url": "new" },
+				{ "title": "Open File", "url": "open" },
+				{ "title": "Save As..", "url": "save" }
+			]
+		}
+
+	]
+}
